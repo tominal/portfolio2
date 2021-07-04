@@ -1,13 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400,600&display=swap');
+
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
 
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-trees {
+    background-color: #111;
+    background-image: url('/trees.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.text-orange {
+    color: #D97706;
+}
+
+.border-orange {
+    border-color: #D97706;
+}
+
+.bg-orange {
+    background-color: #D97706;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
+    background-color: #111;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #d6dee1;
+    background-color: #D97706;
 }

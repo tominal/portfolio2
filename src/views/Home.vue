@@ -289,10 +289,10 @@ export default defineComponent({
 			],
 
 			loadedProjects: false,
-			project: {},
+			project: {} as any,
 			projects: [],
-			projectImages: [],
-			blogImages: [],
+			projectImages: [] as any,
+			blogImages: [] as any,
 			showProject: false,
 
 			loadedBlogs: false,
@@ -326,7 +326,7 @@ export default defineComponent({
 
 	methods: {
 		processInfiniteScroll() {
-			window.addEventListener('scroll', () => {
+			window.addEventListener('scroll', (event) => {
 				const sidenavBody = document.getElementsByClassName('projects');
 				const skillsBody = document.getElementsByClassName('skills');
 

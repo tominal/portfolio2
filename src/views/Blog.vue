@@ -1,5 +1,6 @@
 <template>
     <div>
+<!--			@todo design this damn page -->
 			test
 		</div>
 </template>

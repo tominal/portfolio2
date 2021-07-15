@@ -11,9 +11,11 @@
 				Senior Software Developer
 			</p>
 			<p>
-				<button class="bg-yellow-600 flex-none rounded-2xl p-2 px-6 my-1 mb-12 text-center text-white text-sm font-bold mx-1">
-					My Portfolio
-				</button>
+				<a href="#portfolio">
+					<button class="bg-yellow-600 flex-none rounded-2xl p-2 px-6 my-1 mb-12 text-center text-white text-sm font-bold mx-1">
+						My Portfolio
+					</button>
+				</a>
 			</p>
 			<p>
 				<font-awesome-icon icon="angle-double-down"></font-awesome-icon>
@@ -24,7 +26,7 @@
 			<div class="flex-auto relative px-20">
 				<div class="w-72 h-72 rounded-full bg-yellow-500 mx-auto mt-8"></div>
 				<div class="absolute top-0 left-0 w-full">
-					<img class="mx-auto w-60" src="/angry_scream.png" alt="">
+<!--					<img class="mx-auto w-60" src="/angry_scream.png" alt="">-->
 				</div>
 			</div>
 			<div class="flex-auto">
@@ -57,9 +59,11 @@
 				</div>
 
 				<div class="text-left">
-					<button class="bg-yellow-600 flex-none rounded-2xl p-2 px-6 my-1 mb-12 text-white text-sm font-bold">
-						Contact Me
-					</button>
+					<a href="#contact">
+						<button class="bg-yellow-600 flex-none rounded-2xl p-2 px-6 my-1 mb-12 text-white text-sm font-bold">
+							Contact Me
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -92,6 +96,8 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="portfolio"></div>
 
 		<h2 class="mt-32 mb-8 uppercase text-2xl font-bold">my portfolio</h2>
 		<div class="flex flex-wrap justify-center px-2 sm:px-8 place-items-center max-w-screen-lg mx-auto">
@@ -223,6 +229,8 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="contact"></div>
 
 		<footer class="mt-32 py-24 uppercase text-gray-400" style="background-color: #171717">
 			&copy; thomasj.me {{ year }}
